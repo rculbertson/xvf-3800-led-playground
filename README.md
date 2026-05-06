@@ -2,7 +2,7 @@
 
 Terminal UI for testing LED settings on the ReSpeaker XVF-3800 USB mic array.
 
-The XVF-3800 dev kit has a 12-LED ring controlled over USB via vendor control transfers. This app lets you preview effects, tweak parameters live, and save named presets to a JSON file without writing any code against the vendor SDK.
+<img width="696" height="468" alt="image" src="https://github.com/user-attachments/assets/0326b844-9972-4818-9bd4-4dc385d96f85" />
 
 ## Prerequisites
 
