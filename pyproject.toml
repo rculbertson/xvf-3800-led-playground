@@ -1,0 +1,24 @@
+[project]
+name = "led-playground"
+version = "0.1.0"
+description = "TUI to test LED settings on the ReSpeaker XVF-3800"
+requires-python = ">=3.11"
+license = "MIT"
+license-files = ["LICENSE"]
+dependencies = [
+    "textual>=0.80",
+    "pyusb>=1.2",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["led_playground"]
+
+[dependency-groups]
+dev = [
+    "textual-dev>=1.8.0",
+    "pytest>=8",
+]

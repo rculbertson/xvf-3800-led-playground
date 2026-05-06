@@ -1,0 +1,499 @@
+{
+  "version": 1,
+  "configurations": [
+    {
+      "name": "listening",
+      "settings": {
+        "LED_EFFECT": [
+          3
+        ],
+        "LED_BRIGHTNESS": [
+          234
+        ],
+        "LED_GAMMIFY": [
+          1
+        ],
+        "LED_SPEED": [
+          2
+        ],
+        "LED_COLOR": [
+          7727991
+        ],
+        "LED_DOA_COLOR": [
+          1122850,
+          16711697
+        ],
+        "LED_RING_COLOR": [
+          7727991,
+          7727991,
+          7727991,
+          7727991,
+          7727991,
+          7727991,
+          7727991,
+          7727991,
+          7727991,
+          7727991,
+          7727991,
+          7727991
+        ]
+      }
+    },
+    {
+      "name": "meeko_speaking",
+      "settings": {
+        "LED_EFFECT": [
+          3
+        ],
+        "LED_BRIGHTNESS": [
+          122
+        ],
+        "LED_GAMMIFY": [
+          1
+        ],
+        "LED_SPEED": [
+          1
+        ],
+        "LED_COLOR": [
+          3262234
+        ],
+        "LED_DOA_COLOR": [
+          16711681,
+          16711681
+        ],
+        "LED_RING_COLOR": [
+          3262234,
+          3262234,
+          3262234,
+          3262234,
+          3262234,
+          3262234,
+          3262234,
+          3262234,
+          3262234,
+          3262234,
+          3262234,
+          3262234
+        ]
+      }
+    },
+    {
+      "name": "user_speaking",
+      "settings": {
+        "LED_EFFECT": [
+          4
+        ],
+        "LED_BRIGHTNESS": [
+          127
+        ],
+        "LED_GAMMIFY": [
+          1
+        ],
+        "LED_SPEED": [
+          1
+        ],
+        "LED_COLOR": [
+          16777215
+        ],
+        "LED_DOA_COLOR": [
+          3690890,
+          6720478
+        ],
+        "LED_RING_COLOR": [
+          16777215,
+          16777215,
+          16777215,
+          16777215,
+          16777215,
+          16777215,
+          16777215,
+          16777215,
+          16777215,
+          16777215,
+          16777215,
+          16777215
+        ]
+      }
+    },
+    {
+      "name": "off",
+      "settings": {
+        "LED_EFFECT": [
+          0
+        ],
+        "LED_BRIGHTNESS": [
+          255
+        ],
+        "LED_GAMMIFY": [
+          0
+        ],
+        "LED_SPEED": [
+          1
+        ],
+        "LED_COLOR": [
+          16777215
+        ],
+        "LED_DOA_COLOR": [
+          16777215,
+          16711680
+        ],
+        "LED_RING_COLOR": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "bright green",
+      "settings": {
+        "LED_EFFECT": [
+          3
+        ],
+        "LED_BRIGHTNESS": [
+          255
+        ],
+        "LED_GAMMIFY": [
+          1
+        ],
+        "LED_SPEED": [
+          1
+        ],
+        "LED_COLOR": [
+          65407
+        ],
+        "LED_DOA_COLOR": [
+          16777215,
+          16711680
+        ],
+        "LED_RING_COLOR": [
+          65407,
+          65407,
+          65407,
+          65407,
+          65407,
+          65407,
+          65407,
+          65407,
+          65407,
+          65407,
+          65407,
+          65407
+        ]
+      }
+    },
+    {
+      "name": "pure green",
+      "settings": {
+        "LED_EFFECT": [
+          3
+        ],
+        "LED_BRIGHTNESS": [
+          255
+        ],
+        "LED_GAMMIFY": [
+          1
+        ],
+        "LED_SPEED": [
+          1
+        ],
+        "LED_COLOR": [
+          65280
+        ],
+        "LED_DOA_COLOR": [
+          16777215,
+          16711680
+        ],
+        "LED_RING_COLOR": [
+          65280,
+          65280,
+          65280,
+          65280,
+          65280,
+          65280,
+          65280,
+          65280,
+          65280,
+          65280,
+          65280,
+          65280
+        ]
+      }
+    },
+    {
+      "name": "lime green",
+      "settings": {
+        "LED_EFFECT": [
+          3
+        ],
+        "LED_BRIGHTNESS": [
+          255
+        ],
+        "LED_GAMMIFY": [
+          1
+        ],
+        "LED_SPEED": [
+          1
+        ],
+        "LED_COLOR": [
+          8191744
+        ],
+        "LED_DOA_COLOR": [
+          16777215,
+          16711680
+        ],
+        "LED_RING_COLOR": [
+          16747520,
+          16747520,
+          16747520,
+          16747520,
+          16747520,
+          16747520,
+          16747520,
+          16747520,
+          16747520,
+          16747520,
+          16747520,
+          16747520
+        ]
+      }
+    },
+    {
+      "name": "dark orange",
+      "settings": {
+        "LED_EFFECT": [
+          3
+        ],
+        "LED_BRIGHTNESS": [
+          255
+        ],
+        "LED_GAMMIFY": [
+          1
+        ],
+        "LED_SPEED": [
+          1
+        ],
+        "LED_COLOR": [
+          16747520
+        ],
+        "LED_DOA_COLOR": [
+          16777215,
+          16711680
+        ],
+        "LED_RING_COLOR": [
+          65407,
+          65407,
+          65407,
+          65407,
+          65407,
+          65407,
+          65407,
+          65407,
+          65407,
+          65407,
+          65407,
+          65407
+        ]
+      }
+    },
+    {
+      "name": "classic orange",
+      "settings": {
+        "LED_EFFECT": [
+          3
+        ],
+        "LED_BRIGHTNESS": [
+          255
+        ],
+        "LED_GAMMIFY": [
+          1
+        ],
+        "LED_SPEED": [
+          1
+        ],
+        "LED_COLOR": [
+          16753920
+        ],
+        "LED_DOA_COLOR": [
+          16777215,
+          16711680
+        ],
+        "LED_RING_COLOR": [
+          16753920,
+          16753920,
+          16753920,
+          16753920,
+          16753920,
+          16753920,
+          16753920,
+          16753920,
+          16753920,
+          16753920,
+          16753920,
+          16753920
+        ]
+      }
+    },
+    {
+      "name": "warm amber",
+      "settings": {
+        "LED_EFFECT": [
+          3
+        ],
+        "LED_BRIGHTNESS": [
+          255
+        ],
+        "LED_GAMMIFY": [
+          1
+        ],
+        "LED_SPEED": [
+          1
+        ],
+        "LED_COLOR": [
+          16756736
+        ],
+        "LED_DOA_COLOR": [
+          16777215,
+          16711680
+        ],
+        "LED_RING_COLOR": [
+          16756736,
+          16756736,
+          16756736,
+          16756736,
+          16756736,
+          16756736,
+          16756736,
+          16756736,
+          16756736,
+          16756736,
+          16756736,
+          16756736
+        ]
+      }
+    },
+    {
+      "name": "teal",
+      "settings": {
+        "LED_EFFECT": [
+          3
+        ],
+        "LED_BRIGHTNESS": [
+          255
+        ],
+        "LED_GAMMIFY": [
+          1
+        ],
+        "LED_SPEED": [
+          1
+        ],
+        "LED_COLOR": [
+          47016
+        ],
+        "LED_DOA_COLOR": [
+          16777215,
+          16711680
+        ],
+        "LED_RING_COLOR": [
+          47016,
+          47016,
+          47016,
+          47016,
+          47016,
+          47016,
+          47016,
+          47016,
+          47016,
+          47016,
+          47016,
+          47016
+        ]
+      }
+    },
+    {
+      "name": "soft cyan",
+      "settings": {
+        "LED_EFFECT": [
+          3
+        ],
+        "LED_BRIGHTNESS": [
+          255
+        ],
+        "LED_GAMMIFY": [
+          1
+        ],
+        "LED_SPEED": [
+          1
+        ],
+        "LED_COLOR": [
+          51455
+        ],
+        "LED_DOA_COLOR": [
+          16777215,
+          16711680
+        ],
+        "LED_RING_COLOR": [
+          51455,
+          51455,
+          51455,
+          51455,
+          51455,
+          51455,
+          51455,
+          51455,
+          51455,
+          51455,
+          51455,
+          51455
+        ]
+      }
+    },
+    {
+      "name": "dodger blue",
+      "settings": {
+        "LED_EFFECT": [
+          3
+        ],
+        "LED_BRIGHTNESS": [
+          255
+        ],
+        "LED_GAMMIFY": [
+          1
+        ],
+        "LED_SPEED": [
+          1
+        ],
+        "LED_COLOR": [
+          2003199
+        ],
+        "LED_DOA_COLOR": [
+          16777215,
+          16711680
+        ],
+        "LED_RING_COLOR": [
+          47016,
+          47016,
+          47016,
+          47016,
+          47016,
+          47016,
+          47016,
+          47016,
+          47016,
+          47016,
+          47016,
+          47016
+        ]
+      }
+    }
+  ]
+}

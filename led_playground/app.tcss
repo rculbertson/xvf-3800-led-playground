@@ -1,0 +1,53 @@
+Screen { layout: vertical; }
+
+FooterKey.-disabled .footer-key--key { color: $text-muted; }
+FooterKey.-disabled .footer-key--description { color: $text-muted; }
+
+#body { height: 1fr; }
+#config-list { width: 1fr; height: 1fr; border: round $primary; }
+#editor { width: 1fr; height: 1fr; padding: 0 1; border: round $primary; }
+#status { height: 1; padding: 0 1; color: $text; }
+
+#editor Label { color: $secondary; }
+
+.hint { color: $text-muted; margin-bottom: 1; height: auto; }
+
+.field-row { height: 1; margin: 0; }
+.field-row .field-label { width: 19; height: 1; color: $secondary; }
+.field-row Input { height: 1; width: 1fr; padding: 0 1; border: none; background: transparent; }
+.field-row Input:focus { background: $primary; color: $text; }
+.field-row Switch { height: 1; border: none; padding: 0; background: transparent; }
+.field-row Switch > .switch--slider { color: $text-disabled; }
+.field-row Switch:focus { background: $primary; color: $text; }
+.field-row Switch:focus > .switch--slider { background: $primary; }
+.field-row Select { width: 1fr; height: 1; }
+.field-row Select > SelectCurrent { height: 1; border: none !important; padding: 0 1; background: transparent; }
+.field-row Select:focus { background: $primary; }
+.field-row Select:focus > SelectCurrent { background: $primary; color: $text; border: none !important; }
+.field-row Select:focus > SelectCurrent Static { background: $primary; color: $text; }
+.field-row Select > SelectOverlay { background: $surface; border: round $primary; }
+.field-row Select > SelectOverlay > .option-list--option-highlighted { background: $primary; color: $text; }
+
+#group-doa CommitInput.color-cell { width: 14; margin-right: 1; }
+#group-doa { height: auto; }
+
+#group-ring { height: auto; margin-top: 1; }
+#group-ring Label { height: 1; }
+#group-ring .ring-row { height: 1; }
+#group-ring .ring-num { width: 4; height: 1; color: $secondary; }
+#group-ring CommitInput { height: 1; width: 1fr; padding: 0 1; border: none; background: transparent; }
+#group-ring CommitInput:focus { background: $primary; color: $text; }
+
+#prompt-box {
+    padding: 1 2;
+    background: $surface;
+    border: round $primary;
+    width: 60;
+    height: auto;
+    align: center middle;
+}
+#prompt-buttons { margin-top: 1; height: 3; }
+#prompt-buttons Button { margin-right: 1; }
+
+TextPromptScreen { align: center middle; }
+ConfirmQuitScreen { align: center middle; }
