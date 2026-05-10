@@ -430,8 +430,19 @@ class MainScreen(Screen):
     def action_delete(self) -> None:
         if not self.store.configs:
             return
-        self.store.delete(self.current_index)
-        self._refresh_list()
+        idx = self.current_index
+        self.store.delete(idx)
+        listview = self.query_one("#config-list", ListView)
+        if 0 <= idx < len(listview.children):
+            listview.children[idx].remove()
+        for i in range(idx, len(self.store.configs)):
+            self._refresh_list_item(i)
+        if self.store.configs:
+            new_index = min(idx, len(self.store.configs) - 1)
+            listview.index = new_index
+            self.current_index = new_index
+        else:
+            self.current_index = 0
         self._populate_editor()
 
     def action_rename(self) -> None:
@@ -444,7 +455,7 @@ class MainScreen(Screen):
             if not name:
                 return
             self.store.rename(idx, name)
-            self._refresh_list(select_index=idx)
+            self._refresh_list_item(idx)
             self._populate_editor()
 
         self.app.push_screen(
