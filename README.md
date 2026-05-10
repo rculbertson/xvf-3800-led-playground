@@ -25,10 +25,10 @@ Optional flags: `--config PATH` (default `./config.json`), `--vid 0x2886`, `--pi
 If pyusb raises `Access denied`, add a udev rule:
 
 ```
-SUBSYSTEM=="usb", ATTR{idVendor}=="2886", ATTR{idProduct}=="001a", MODE="0666"
+SUBSYSTEM=="usb", ATTRS{idVendor}=="2886", ATTRS{idProduct}=="001a", MODE="0660", GROUP="plugdev"
 ```
 
-Save to `/etc/udev/rules.d/99-respeaker.rules`, then `sudo udevadm control --reload-rules && sudo udevadm trigger`.
+Save to `/etc/udev/rules.d/99-respeaker.rules`, then `sudo udevadm control --reload && sudo udevadm trigger`.
 
 ## License
 
